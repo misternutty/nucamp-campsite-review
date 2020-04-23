@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #343a40;
 }
 
 h1, h2, h3 {
@@ -7,7 +8,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046C5;
+    color: #f8f9fa;
 }
 
 header h2 {
@@ -15,7 +16,7 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#6610f2, #343a40);
     padding: 20px 0;
 }
 
@@ -32,12 +33,16 @@ header h2 {
     min-height: 200px;
 }
 
+.ridge {
+    border-bottom: 1px ridge;
+}
+
 .navbar {
     background-color: #901CAD;
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid #f8f9fa;
 }
 
 .carousel-caption {
